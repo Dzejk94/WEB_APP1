@@ -1,7 +1,7 @@
 import streamlit as st
 import functions
 
-fp = r'C:\Users\Jacek\PycharmProjects\web_app1\todos.txt'
+fp = r'todos.txt'
 todos = functions.read_todos(filepath=fp)
 
 
